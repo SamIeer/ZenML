@@ -49,7 +49,7 @@ class DataPreProcessStrategy(DataStrategy):
             logging.error("Error in preprocessing data: {}".format(e))
             raise e 
 
-class DAtaDivideStrategy(DataStrategy):
+class DataDivideStrategy(DataStrategy):
     """
     Strategy for dividing data into train and test
     """
@@ -83,3 +83,4 @@ class DataCleaning:
         except Exception as e:
             logging.error("Error in handling data: {}".format(e))
             raise e
+        
